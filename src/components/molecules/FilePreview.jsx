@@ -1,12 +1,12 @@
 import React from 'react';
-import ApperIcon from '@/components/ApperIcon'; // Updated import path
+import ApperIcon from '../ApperIcon'; // Fixed relative import path
 import { motion } from 'framer-motion';
 
 function FilePreview({ file, onDelete }) {
   const formatBytes = (bytes, decimals = 2) => {
     if (bytes === 0) return '0 Bytes';
     const k = 1024;
-    const dm = decimals &lt; 0 ? 0 : decimals;
+    const dm = decimals < 0 ? 0 : decimals; // Fixed: changed &lt; to <
     const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
     const i = Math.floor(Math.log(bytes) / Math.log(k));
     return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
@@ -41,9 +41,9 @@ function FilePreview({ file, onDelete }) {
       <div className="flex-grow">
         <h3 className="text-lg font-semibold truncate">{file.name}</h3>
         <p className="text-sm text-gray-400">{formatBytes(file.size)}</p>
-        <div className="w-full bg-gray-700 rounded-full h-2.5 mt-2">
+<div className="w-full bg-gray-700 rounded-full h-2.5 mt-2">
           <div
-            className="bg-primary-500 h-2.5 rounded-full"
+            className="bg-primary h-2.5 rounded-full"
             style={{ width: `${file.progress}%` }}
           ></div>
         </div>
