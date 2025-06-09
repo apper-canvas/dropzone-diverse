@@ -5,10 +5,10 @@ import NotFound from './pages/NotFound'
 
 function App() {
   return (
-    <BrowserRouter>
+<BrowserRouter>
       <div className="min-h-screen bg-background text-white">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <ToastContainer
