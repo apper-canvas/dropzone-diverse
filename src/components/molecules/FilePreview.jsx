@@ -32,9 +32,9 @@ function FilePreview({ file, onDelete }) {
       {file.thumbnailUrl && (
         <img src={file.thumbnailUrl} alt="Thumbnail" className="w-16 h-16 object-cover rounded-md mr-4 flex-shrink-0" />
       )}
-      {!file.thumbnailUrl && (
+{!file.thumbnailUrl && (
         <div className="w-16 h-16 bg-gray-700 rounded-md mr-4 flex-shrink-0 flex items-center justify-center">
-          <ApperIcon iconName="file" className="text-gray-300 text-3xl" />
+          <ApperIcon name="File" className="text-gray-300 text-3xl" />
         </div>
       )}
 
@@ -57,11 +57,11 @@ function FilePreview({ file, onDelete }) {
           )}
         </div>
       </div>
-      <button
+<button
         onClick={() => onDelete(file.id)}
         className="ml-4 p-2 rounded-full hover:bg-red-600/30 text-red-400 transition-colors"
       >
-        <ApperIcon iconName="trash" className="text-xl" />
+        <ApperIcon name="Trash" className="text-xl" />
       </button>
     </motion.div>
   );
