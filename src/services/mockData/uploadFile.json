@@ -1,0 +1,50 @@
+[
+  {
+    "id": "file-1698765432-abc123",
+    "name": "presentation-deck.pdf",
+    "size": 2457600,
+    "type": "application/pdf",
+    "status": "completed",
+    "progress": 100,
+    "uploadSpeed": 0,
+    "shareLink": "https://dropzone.pro/file/file-1698765432-abc123",
+    "thumbnailUrl": "",
+    "uploadedAt": "2024-01-15T10:30:00.000Z"
+  },
+  {
+    "id": "file-1698765433-def456",
+    "name": "team-photo.jpg",
+    "size": 1234567,
+    "type": "image/jpeg",
+    "status": "completed",
+    "progress": 100,
+    "uploadSpeed": 0,
+    "shareLink": "https://dropzone.pro/file/file-1698765433-def456",
+    "thumbnailUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAyADIDAREAAhEBAxEB/8QAHAAAAgIDAQAAAAAAAAAAAAAAAAYEBQECAwf/xAA0EAABAwMDAgQEBQMFAAAAAAABAgMEAAUREiExBkEHE1FhInGBkSMyobHBFELwBRUz0eH/xAAaAQACAwEBAAAAAAAAAAAAAAAAAwECBAUG/8QAIhEAAwACAgICAwEAAAAAAAAAAAECAxEhMRJBUWETMnGB/9oADAMBAAIRAxEAWX/Z",
+    "uploadedAt": "2024-01-15T09:15:00.000Z"
+  },
+  {
+    "id": "file-1698765434-ghi789",
+    "name": "project-proposal.docx",
+    "size": 987654,
+    "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "status": "completed",
+    "progress": 100,
+    "uploadSpeed": 0,
+    "shareLink": "https://dropzone.pro/file/file-1698765434-ghi789",
+    "thumbnailUrl": "",
+    "uploadedAt": "2024-01-15T08:45:00.000Z"
+  },
+  {
+    "id": "file-1698765435-jkl012",
+    "name": "design-mockups.png",
+    "size": 3456789,
+    "type": "image/png",
+    "status": "completed",
+    "progress": 100,
+    "uploadSpeed": 0,
+    "shareLink": "https://dropzone.pro/file/file-1698765435-jkl012",
+    "thumbnailUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFvSURBVCiRpZM9SwNBEIafgwQLwcJCG1sLwcJCG9vYaGOjjY021lrY2NjYWGtjY2Njra2NjbU2NjbW2lhrY62tjY22NjbWWmtjY62NjbU2NjbW2lhro42NjbU2NjbW2lhrY62NjbU21lprY62NjbU2NjbW2thrY62NjbU2NjbW2lhro42Nja2NjY22NjbW2lhrY62NjbU21lprY62NjbU2NjbW2lhro42NjbU2NjbW2lhrY62NjbU21lprY62NjbU2NjbW2lhro42NjbU2NjbW2lhrY62NjbU21lprY62NjbU2NjbW2lhro42NjbU2NjbW2lhrY62NjbU21lprY62NjbU2NjbW2lhro42NjbU2NjbW2lhrY62NjbU21lprY62NjbU2NjbW2lhro42NjbU2NjbW2lhrY62NjbU21lprY62NjbU2NjbW2lhrY62NjbU21lprY62NjbU2NjbW2lhrY62NjbU21lprY62NjbU2NjbW2lhrY62NjbU21lprY62NjbU=",
+    "uploadedAt": "2024-01-14T16:20:00.000Z"
+  }
+]

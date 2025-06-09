@@ -1,0 +1,35 @@
+[
+  {
+    "sessionId": "session-1698765432-xyz789",
+    "files": [
+      "file-1698765432-abc123",
+      "file-1698765433-def456",
+      "file-1698765434-ghi789"
+    ],
+    "totalSize": 4679821,
+    "completedSize": 4679821,
+    "startTime": "2024-01-15T08:45:00.000Z",
+    "shareableLink": "https://dropzone.pro/share/session-1698765432-xyz789"
+  },
+  {
+    "sessionId": "session-1698765433-uvw456",
+    "files": [
+      "file-1698765435-jkl012"
+    ],
+    "totalSize": 3456789,
+    "completedSize": 3456789,
+    "startTime": "2024-01-14T16:20:00.000Z",
+    "shareableLink": "https://dropzone.pro/share/session-1698765433-uvw456"
+  },
+  {
+    "sessionId": "session-1698765434-rst123",
+    "files": [
+      "file-1698765432-abc123",
+      "file-1698765435-jkl012"
+    ],
+    "totalSize": 5914389,
+    "completedSize": 5914389,
+    "startTime": "2024-01-13T14:30:00.000Z",
+    "shareableLink": "https://dropzone.pro/share/session-1698765434-rst123"
+  }
+]
