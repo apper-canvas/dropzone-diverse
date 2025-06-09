@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
-import Home from './pages/Home'
+import HomePage from '@/components/pages/HomePage'
 import NotFound from './pages/NotFound'
 
 function App() {
