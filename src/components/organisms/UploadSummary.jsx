@@ -7,10 +7,10 @@ function UploadSummary({ files, allCompleted }) {
   const totalSize = files.reduce((sum, f) => sum + f.size, 0);
   const completedSize = files.filter(f => f.status === 'completed').reduce((sum, f) => sum + f.size, 0);
 
-  const formatBytes = (bytes, decimals = 2) => {
+const formatBytes = (bytes, decimals = 2) => {
     if (bytes === 0) return '0 Bytes';
     const k = 1024;
-    const dm = decimals &lt; 0 ? 0 : decimals;
+    const dm = decimals < 0 ? 0 : decimals;
     const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
     const i = Math.floor(Math.log(bytes) / Math.log(k));
     return parseFloat((bytes / Math.pow(k, i)).toFixed(dm)) + ' ' + sizes[i];
@@ -51,9 +51,9 @@ function UploadSummary({ files, allCompleted }) {
 
       <div className="mt-6">
         <h3 className="text-lg font-semibold text-white mb-2">Overall Progress</h3>
-        <div className="w-full bg-gray-700 rounded-full h-3">
+<div className="w-full bg-gray-700 rounded-full h-3">
           <div
-            className={`h-3 rounded-full ${allCompleted ? 'bg-green-500' : 'bg-primary-500'}`}
+            className={`h-3 rounded-full ${allCompleted ? 'bg-green-500' : 'bg-primary'}`}
             style={{ width: `${calculateOverallProgress()}%` }}
           ></div>
         </div>
